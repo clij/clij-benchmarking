@@ -62,7 +62,6 @@ These plots were done with the [plotCompareMachinesKernelSize.py](https://github
 The Gaussian Blur filter in ImageJ is optimized for speed. Apparently, it is an implementation which is independent from kernel size. 
 Thus, with very large kernels, it can perform faster than it GPU-based counter part. 
 The Minimum filter shows an apparently polynomial increasing time with increasing filter radius. 
-We also assume it is a single-threaded implementation as it performs slower on the CPU of the workstation compared to the laptop.
 
 ### Speedup of operations
 We also generated an overview of speedup factors for all tested operations. 
