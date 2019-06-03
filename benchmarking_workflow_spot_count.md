@@ -84,9 +84,9 @@ Quantifying the overall measurements revealed that mean relative differences of 
 As results on Workstation and Laptop were not identical when using CLIJ, we also compared the results in more detail: 
 We observed a mean relative difference 0.05 +- 0.04 % between the identical code being run on an Intel HD versus Nvidia card. 
 
-<img src="./plotting/images/spot_count_CLIJ_Laptop_versus_CLIJ_Workstation_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_CLIJ_Laptop_versus_CLIJ_Workstation_bland_altman_plot.png" width="300">
+<img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_bland_altman_plot.png" width="300">
 
-Comparison of spot count results reveals that there no differences between ImageJ on Workstation and Laptop. Cell count plots for the three samples look like this:
+Comparison of spot count results reveals that there no differences between ImageJ on Workstation and Laptop.
 <img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_bland_altman_plot.png" width="300">
 
 Numbers and plots listed in this section can be reproduced using the [Analyse_differences](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/Analyse_differences.ipynb) Jupyter notebook. 
