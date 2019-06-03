@@ -87,6 +87,7 @@ We observed a mean relative difference 0.05 +- 0.04 % between the identical code
 <img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_scatter_plot.png" width="250"><img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_bland_altman_plot.png" width="250">
 
 Comparison of spot count results reveals that there no differences between ImageJ on Workstation and Laptop.
+
 <img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_scatter_plot.png" width="250"><img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_bland_altman_plot.png" width="250">
 
 Numbers and plots listed in this section can be reproduced using the [Analyse_differences](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/Analyse_differences.ipynb) Jupyter notebook. 
