@@ -29,20 +29,14 @@ The measured median transfer times +- standard deviations show clear differences
 suggesting that the data transfer is faster on the workstation.
 These numbers can be retraced by executing the [analyse_transfer_time.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/analyse_transfer_time.py)
 
-<img src="./plotting/images/compare_machines_imagesize_transfertime_imagej.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_transfertime_clij.png" width="300">
+<img src="./plotting/images/compare_machines_imagesize_transfertime_imagej.png" width="300"><img src="./plotting/images/compare_machines_imagesize_transfertime_clij.png" width="300">
 
 These plots were done with the [plotCompareMachinesTransferImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesTransferImageSize.py) script.
 
 ### Processing time over image size
 We chose six operations to plot processing time over image size in detail. 
 
-<img src="./plotting/images/compare_machines_imagesize_processing_time_AddImagesWeighted3D.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_processing_time_GaussianBlur3D.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_processing_time_MaximumZProjection.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_processing_time_Minimum3D.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_processing_time_RadialReslice.png" width="300">
-<img src="./plotting/images/compare_machines_imagesize_processing_time_Reslice3D.png" width="300">
+<img src="./plotting/images/compare_machines_imagesize_processing_time_AddImagesWeighted3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_MaximumZProjection.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Minimum3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_RadialReslice.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Reslice3D.png" width="300">
 
 These plots were done with the [plotCompareMachinesImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesImageSize.py) script.
 
