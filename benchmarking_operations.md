@@ -79,6 +79,9 @@ is a high end mobile CPU with up to 4.2 GHz clock rate, the [Intel Xeon Silver 4
 has a maximum clock rate of 3 GHz. On the other hand, there are operations shown which run faster on the workstation CPU. 
 We assume that the algorithms implemented exploit multi-threading for higher performance yield. 
 
+### Contributing to this project
+If you want to contribute to this project, feel free to clone the repository, execute the benchmarks and file a pull request with your measurements! Don't forget to specify your CPU and GPU hardware when filing the PR.
+
 [Back to CLIJ documentation](https://clij.github.io/)
 
 
