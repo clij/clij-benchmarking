@@ -1,4 +1,4 @@
-# Benchmarking CLIJ operations versus ImageJ/Fiji operatipns
+# Benchmarking CLIJ operations versus ImageJ/Fiji operations
 In order to measure performance differences between ImageJ and CLIJ operations, we conducted benchmarking experiments.
 
 ## Benchmarking operations
