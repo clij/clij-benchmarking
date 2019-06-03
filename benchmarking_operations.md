@@ -8,7 +8,10 @@ respective Benchmarking modules and put in a [Java package](https://github.com/c
 Each of these modules has two test methods: One that processes images in the ImageJ-way and another that executes an 
 as-similar-as-possible operation using CLIJ. Both methods measure the pure processing time excluding time spent for
 data transfer between CPU and GPU for example. An exceptional module called [Transfer3DFrom](https://github.com/clij/clij-benchmarking/blob/master/src/main/java/net/haesleinhuepf/clij/benchmark/modules/Transfer3DFrom.java)
-is used to quantify the transfer time exclusively.
+is used to quantify the transfer time exclusively. 
+In order to measure pure processing times of the operations, image data transfor from/to GPU was excluded. 
+Furthermore, GPU-code compilation time was excluded by ignoring the first out of 10 repetitions.
+During this so called warm-up phase, compiled GPU-code is cached and can be reused in subsequent iterations.
 
 ## Image data
 For benchmarking operations, we used images with random pixel values of pixel type 8-bit with a size of 16 MB if not specified otherwise. 
@@ -16,8 +19,8 @@ The 2D-operations were tested on images of size 4096 x 4096. The 3D-operations r
 
 ## Benchmarked computing hardware
 Benchmarking was executed on 
-* a laptop with an Intel Core i7-8650U CPU and a Intel UHD 620 GPU, 
-* a workstation with an Intel Xeon Silver 4110 CPU in combination with a Nvidia Quadro P6000 GPU. 
+* a laptop with an Intel Core i7-8650U CPU and a Intel UHD 620 GPU ("MYERS-PC-21"), 
+* a workstation with an Intel Xeon Silver 4110 CPU in combination with a Nvidia Quadro P6000 GPU ("MYERS-PC-22"). 
 
 ## Results
 
@@ -37,6 +40,7 @@ We chose six operations to plot processing time with respect to image size in de
 <img src="./plotting/images/compare_machines_imagesize_processing_time_AddImagesWeighted3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_MaximumZProjection.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Minimum3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_RadialReslice.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Reslice3D.png" width="300">
 <img src="./images/plot_legend.png" width="600">
 
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking/imagesize/);
 These plots were done with the [plotCompareMachinesImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesImageSize.py) script.
 
 Some of the operations show different behaviour with small images compared to large images. 
@@ -52,6 +56,7 @@ and the Minimum filter whose processing time might depend on the entered radius 
 <img src="./plotting/images/compare_machines_kernelsize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_kernelsize_processing_time_Minimum3D.png" width="300">
 <img src="./images/plot_legend.png" width="600">
 
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking/kernelsize/);
 These plots were done with the [plotCompareMachinesKernelSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesKernelSize.py) script.
 
 The Gaussian Blur filter in ImageJ is optimized for speed. Apparently, it is an implementation which is independent from kernel size. 
@@ -65,6 +70,7 @@ The speedup was calculated relative to the ImageJ operation executed on the lapt
 
 <img src="./plotting/images/compare_machines_all_operations.png" width="800">
 
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking/all/);
 This plot was generated with the [plotCompareMachinesAllOperations.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesAllOperations.py) script.
 
 This table shows some operations to perform slower (speedup < 1) on the workstation CPU in comparison to the notebook CPU. 
