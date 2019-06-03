@@ -68,7 +68,7 @@ consumption with increasing filter radius. We assume it is a single-threaded imp
 We also generated an overview of speedup factors for all tested operations. The speedup was calculated relative to the
 ImageJ operation executed on the laptop CPU.
 
-![Image](plotting/images/compare_machines_all_operations.png" width="300">
+<img src="./plotting/images/compare_machines_all_operations.png" width="300">
 
 This plots was generated with the [plotCompareMachinesAllOperations.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesAllOperations.py) script.
 
