@@ -30,14 +30,14 @@ The measured median transfer times +- standard deviations show clear differences
 suggesting that the data transfer is faster on the workstation.
 These numbers can be retraced by executing the [analyse_transfer_time.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/analyse_transfer_time.py)
 
-<img src="./plotting/images/compare_machines_imagesize_transfertime_imagej.png" width="300"><img src="./plotting/images/compare_machines_imagesize_transfertime_clij.png" width="300">
+<img src="./plotting/images/compare_machines_imagesize_transfertime_imagej.png" width="250"><img src="./plotting/images/compare_machines_imagesize_transfertime_clij.png" width="250">
 
 These plots were done with the [plotCompareMachinesTransferImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesTransferImageSize.py) script.
 
 ### Processing time depends on image size
 We chose six operations to plot processing time with respect to image size in detail. 
 
-<img src="./plotting/images/compare_machines_imagesize_processing_time_AddImagesWeighted3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_MaximumZProjection.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Minimum3D.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_RadialReslice.png" width="300"><img src="./plotting/images/compare_machines_imagesize_processing_time_Reslice3D.png" width="300">
+<img src="./plotting/images/compare_machines_imagesize_processing_time_AddImagesWeighted3D.png" width="250"><img src="./plotting/images/compare_machines_imagesize_processing_time_GaussianBlur3D.png" width="250"><img src="./plotting/images/compare_machines_imagesize_processing_time_MaximumZProjection.png" width="250"><img src="./plotting/images/compare_machines_imagesize_processing_time_Minimum3D.png" width="250"><img src="./plotting/images/compare_machines_imagesize_processing_time_RadialReslice.png" width="250"><img src="./plotting/images/compare_machines_imagesize_processing_time_Reslice3D.png" width="250">
 <img src="./images/plot_legend.png" width="600">
 
 Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking/imagesize/);
@@ -53,7 +53,7 @@ Some operations have parameters influencing processing time.
 We chose two representative examples: the Gaussian Blur filter whose processing time might depend on its sigma parameter 
 and the Minimum filter whose processing time might depend on the entered radius parameter.
 
-<img src="./plotting/images/compare_machines_kernelsize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_kernelsize_processing_time_Minimum3D.png" width="300">
+<img src="./plotting/images/compare_machines_kernelsize_processing_time_GaussianBlur3D.png" width="250"><img src="./plotting/images/compare_machines_kernelsize_processing_time_Minimum3D.png" width="250">
 <img src="./images/plot_legend.png" width="600">
 
 Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking/kernelsize/);

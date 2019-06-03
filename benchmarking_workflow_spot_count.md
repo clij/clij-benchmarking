@@ -69,7 +69,7 @@ The macros generating the video are [available online](https://github.com/clij/c
 ## Quantitative comparsion of workflow results
 By plotting the spot count of the two workflows executed on the two test systems over time we get a first impression on the estimation of the cell count:
 
-<img src="./plotting/images/spot_count_plot.png" width="300">
+<img src="./plotting/images/spot_count_plot.png" width="250">
 
 During the first time points, the time lapse shows a mitotic wave which explains the peak in spot count.
 Afterwards, when nuclei increase visually in size, the spot count goes down until appoximately time point 80. 
@@ -79,15 +79,15 @@ As we count spots on a surface projection, cells in multiple layers cannot be co
 
 Quantifying the overall measurements revealed that mean relative differences of 0.9 +- 0.6% when comparing the workflows based on ImageJ and CLIJ. 
 
-<img src="./plotting/images/spot_count_ImageJ_versus_CLIJ Laptop_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_ImageJ_versus_CLIJ Laptop_bland_altman_plot.png" width="300">
+<img src="./plotting/images/spot_count_ImageJ_versus_CLIJ Laptop_scatter_plot.png" width="250"><img src="./plotting/images/spot_count_ImageJ_versus_CLIJ Laptop_bland_altman_plot.png" width="250">
 
 As results on Workstation and Laptop were not identical when using CLIJ, we also compared the results in more detail: 
 We observed a mean relative difference 0.05 +- 0.04 % between the identical code being run on an Intel HD versus Nvidia card. 
 
-<img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_bland_altman_plot.png" width="300">
+<img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_scatter_plot.png" width="250"><img src="./plotting/images/spot_count_CLIJ Laptop_versus_CLIJ Workstation_bland_altman_plot.png" width="250">
 
 Comparison of spot count results reveals that there no differences between ImageJ on Workstation and Laptop.
-<img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_scatter_plot.png" width="300"><img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_bland_altman_plot.png" width="300">
+<img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_scatter_plot.png" width="250"><img src="./plotting/images/spot_count_ImageJ Laptop_versus_ImageJ Workstation_bland_altman_plot.png" width="250">
 
 Numbers and plots listed in this section can be reproduced using the [Analyse_differences](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/Analyse_differences.ipynb) Jupyter notebook. 
 
