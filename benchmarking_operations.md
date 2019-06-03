@@ -54,8 +54,7 @@ Some operations have parameters influencing processing time. We chose two repres
 filter whose processing time might depend on its sigma parameter and the Minimum filter whose processing time might 
 depend on the entered radius parameter.
 
-<img src="./plotting/images/compare_machines_kernelsize_processing_time_GaussianBlur3D.png" width="300">
-<img src="./plotting/images/compare_machines_kernelsize_processing_time_Minimum3D.png" width="300">
+<img src="./plotting/images/compare_machines_kernelsize_processing_time_GaussianBlur3D.png" width="300"><img src="./plotting/images/compare_machines_kernelsize_processing_time_Minimum3D.png" width="300">
 
 These plots were done with the [plotCompareMachinesKernelSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesKernelSize.py) script.
 
