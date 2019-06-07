@@ -9,7 +9,7 @@ used to estimate the cell count in three dimensional Drosophila melanogaster emb
 The workflows were benchmard using image stacks acquired on a custom multi-view light-sheet microscope with two detection arms giving opposing views on the sample.
 The imaged Drosophila line ([flybase 23651](http://flybase.org/reports/FBst0023651) shows histone-RFP marked nuclei when
 being imaged using a 594 nm laser. 
-The used image data is [available online](https://bds.mpi-cbg.de/link_coming_soon).
+The used image data is [available online](https://bds.mpi-cbg.de/CLIJ_benchmarking_data/).
 The image stacks stored with 16 bits per voxel are 121 MB large on disc, with 512x1024x121 voxels and a voxel size of
 0.52 x 0.52 x 2.0 cubic micrometer.  
 For the benchmarking, 300 image stacks acquired while the embryo develops from stage 4 to stage 8 were analysed.
