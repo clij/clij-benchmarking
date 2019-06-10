@@ -75,7 +75,7 @@ During the first time points, the time lapse shows a mitotic wave which explains
 Afterwards, when nuclei increase visually in size, the spot count goes down until appoximately time point 80. 
 Then, between time point 80 and 180, spot count stays mostly constant. This is stage 5 of Drosophila embryo development.
 Afterwards, as soon as gastrulation starts, the spot count decreases again which is related to the invagination of cells.
-As we count spots on a surface projection, cells in multiple layers cannot be counted by out workflow. 
+As the workflow count spots on a surface projection, it cannot detect nuclei in multiple layers. 
 
 Quantifying the overall measurements revealed that mean relative differences of 0.9 +- 0.6% when comparing the workflows based on ImageJ and CLIJ. 
 
