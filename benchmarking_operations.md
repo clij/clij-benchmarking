@@ -81,7 +81,7 @@ has a maximum clock rate of 3 GHz. On the other hand, there are operations shown
 We assume that the algorithms implemented exploit multi-threading for higher performance yield. The workstation CPU has 8 physical cores while the laptops CPU has just 4.
 
 ### Contributing to this project
-If you want to contribute to this project, feel free to clone the repository, execute the benchmarks and file a pull request with your measurements! Also, please specify your CPU and GPU hardware when filing the PR.
+If you want to contribute to this project, feel free to clone the repository, [execute the benchmarks](http://clij.github.io/clij-benchmarking/benchmark_your_system) and file a pull request with your measurements! Also, please specify your CPU and GPU hardware when filing the PR.
 
 [Back to CLIJ documentation](https://clij.github.io/)
 

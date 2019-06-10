@@ -93,6 +93,6 @@ Comparison of spot count results reveals that there were no differences between 
 Numbers and plots listed in this section can be reproduced using the [Analyse_differences](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/Analyse_differences.ipynb) Jupyter notebook. 
 
 ### Contributing to this project
-If you want to contribute to this project, feel free to clone the repository, execute the benchmarks and file a pull request with your measurements! Also, please specify your CPU and GPU hardware when filing the PR.
+If you want to contribute to this project, feel free to clone the repository, [execute the benchmarks](http://clij.github.io/clij-benchmarking/benchmark_your_system) and file a pull request with your measurements! Also, please specify your CPU and GPU hardware when filing the PR.
 
 [Back to CLIJ documentation](https://clij.github.io/)
