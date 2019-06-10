@@ -3,10 +3,7 @@ package net.haesleinhuepf.clij.benchmark;
 import net.haesleinhuepf.clij.CLIJ;
 
 /**
- * Main
- * <p>
- * <p>
- * <p>
+ * Run this main method to benchmark all operations on your machine.
  * Author: @haesleinhuepf
  * 05 2019
  */
