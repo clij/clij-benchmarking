@@ -1,6 +1,6 @@
 # Contributing to CLIJ by benchmarking your system
 
-You can contribute to this project by benchmarking your system and submitting the resulting time meausurement files as pull-request via github.
+You can contribute to this project by benchmarking your system and submitting the resulting time measurement files as pull-request via github.
 
 ## Installation instructions
 If you want to execute the benchmarks in this repository, we recommend installing
