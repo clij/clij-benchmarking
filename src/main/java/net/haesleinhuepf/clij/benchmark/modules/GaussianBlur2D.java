@@ -2,6 +2,7 @@ package net.haesleinhuepf.clij.benchmark.modules;
 
 import ij.IJ;
 import ij.ImagePlus;
+import ij.plugin.filter.GaussianBlur;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
@@ -14,7 +15,9 @@ public class GaussianBlur2D extends DefaultBenchmarkableModule {
     }
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        IJ.run(imp2D, "Gaussian Blur...", "sigma=" + sigma);
+        //IJ.run(imp2D, "Gaussian Blur...", "sigma=" + sigma);
+        GaussianBlur gb = new GaussianBlur();
+        gb.blurGaussian(imp2D.getProcessor(), sigma);
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {

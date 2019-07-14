@@ -17,8 +17,10 @@ public class BenchmarkAllOperations extends AbstractBenchmark {
                 /*new AddImagesWeighted2D(),
                 new AddImagesWeighted3D(),
 
+                new AddScalar2D_(1),
                 new AddScalar2D(1),
-                new AddScalar3D(1),
+                new AddScalar3D_(1),
+                new AddScalar3D(1)
 
                 new AutoThreshold2D(),
                 new AutoThreshold3D(),
@@ -33,7 +35,9 @@ public class BenchmarkAllOperations extends AbstractBenchmark {
                 new Flip3D(),
 */
                 new GaussianBlur2D(defaultSigma),
-                new GaussianBlur3D(defaultSigma)
+                new GaussianBlur2D_(defaultSigma),
+                new GaussianBlur3D(defaultSigma),
+                new GaussianBlur3D_(defaultSigma)
 /*
                 new MaximumZProjection(),
 

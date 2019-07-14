@@ -5,17 +5,17 @@ import ij.ImagePlus;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class GaussianBlur3D extends DefaultBenchmarkableModule {
+@Deprecated
+public class GaussianBlur3D_ extends DefaultBenchmarkableModule {
 
     private Double sigma;
 
-    public GaussianBlur3D(double sigma) {
+    public GaussianBlur3D_(double sigma) {
         this.sigma = sigma;
     }
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        //IJ.run(imp3D, "Gaussian Blur 3D...", "x=" + sigma + " y=" + sigma + " z=" + sigma);
-        ij.plugin.GaussianBlur3D.blur(imp3D, sigma, sigma, sigma);
+        IJ.run(imp3D, "Gaussian Blur 3D...", "x=" + sigma + " y=" + sigma + " z=" + sigma);
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {

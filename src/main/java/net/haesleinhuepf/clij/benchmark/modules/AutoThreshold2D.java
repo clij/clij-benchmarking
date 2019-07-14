@@ -2,6 +2,7 @@ package net.haesleinhuepf.clij.benchmark.modules;
 
 import ij.IJ;
 import ij.ImagePlus;
+import ij.plugin.Thresholder;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 

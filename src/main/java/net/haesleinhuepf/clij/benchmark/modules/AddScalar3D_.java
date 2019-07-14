@@ -5,21 +5,17 @@ import ij.ImagePlus;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class AddScalar3D extends DefaultBenchmarkableModule {
+@Deprecated
+public class AddScalar3D_ extends DefaultBenchmarkableModule {
 
     private Double scalar;
 
-    public AddScalar3D(double scalar) {
+    public AddScalar3D_(double scalar) {
         this.scalar = scalar;
     }
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        //IJ.run(imp3D, "Add...", "value=" + scalar + " stack");
-        for (int z = 0; z < imp3D.getNSlices(); z++) {
-            imp3D.setZ(z + 1);
-            imp3D.getProcessor().add(scalar);
-        }
-
+        IJ.run(imp3D, "Add...", "value=" + scalar + " stack");
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {
