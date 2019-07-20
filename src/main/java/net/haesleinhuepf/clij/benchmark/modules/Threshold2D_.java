@@ -6,14 +6,12 @@ import ij.plugin.Thresholder;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class Threshold2D extends DefaultBenchmarkableModule {
-
-
+@Deprecated
+public class Threshold2D_ extends DefaultBenchmarkableModule {
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
         IJ.setThreshold(imp2D, 128, 255);
-        //IJ.run(imp2D, "Convert to Mask", "method=Default background=Dark black");
-        new ImagePlus("Binary", Thresholder.createMask(imp2D));
+        IJ.run(imp2D, "Convert to Mask", "method=Default background=Dark black");
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {

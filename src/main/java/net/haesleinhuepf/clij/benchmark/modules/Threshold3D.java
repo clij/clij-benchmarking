@@ -7,8 +7,6 @@ import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
 public class Threshold3D extends DefaultBenchmarkableModule {
 
-
-
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
         IJ.setThreshold(imp3D, 128, 255);
         IJ.run(imp3D, "Convert to Mask", "method=Default background=Dark black");
