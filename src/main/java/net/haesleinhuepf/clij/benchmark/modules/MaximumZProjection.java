@@ -9,7 +9,7 @@ import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 public class MaximumZProjection extends DefaultBenchmarkableModule {
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        ImagePlus imp = ZProjector.run(imp3D,"max");
+        IJ.run(imp3D, "Z Project...", "projection=[Max Intensity]");
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {

@@ -2,18 +2,19 @@ package net.haesleinhuepf.clij.benchmark.modules;
 
 import ij.IJ;
 import ij.ImagePlus;
-import ij.plugin.Slicer;
+import ij.plugin.filter.Transformer;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class Reslice3D extends DefaultBenchmarkableModule {
+@Deprecated
+public class Flip2D_ extends DefaultBenchmarkableModule {
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        IJ.run(imp3D,"Reslice [/]...", "output=1 start=Left");
+        IJ.run(imp2D, "Flip Horizontally", "");
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {
-        clij.op().resliceLeft(clb3D[0], clb3D[2]);
+        clij.op().flip(clb2D[0], clb2D[1], true, false);
     }
 
     @Override

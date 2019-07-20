@@ -5,17 +5,17 @@ import ij.ImagePlus;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class MultiplyScalar2D extends DefaultBenchmarkableModule {
+@Deprecated
+public class MultiplyScalar2D_ extends DefaultBenchmarkableModule {
 
     private Double scalar;
 
-    public MultiplyScalar2D(double scalar) {
+    public MultiplyScalar2D_(double scalar) {
         this.scalar = scalar;
     }
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        //IJ.run(imp2D, "Multiply...", "value=" + scalar);
-        imp2D.getProcessor().multiply(scalar);
+        IJ.run(imp2D, "Multiply...", "value=" + scalar);
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {

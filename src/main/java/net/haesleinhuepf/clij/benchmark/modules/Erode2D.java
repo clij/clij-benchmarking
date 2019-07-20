@@ -2,13 +2,18 @@ package net.haesleinhuepf.clij.benchmark.modules;
 
 import ij.IJ;
 import ij.ImagePlus;
+import ij.plugin.filter.Binary;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
 public class Erode2D extends DefaultBenchmarkableModule {
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        IJ.run(imp2D, "Erode", "");
+        //IJ.run(imp2D, "Erode", "");
+        Binary bin = new Binary();
+        bin.setup("erode", imp2D);
+        bin.run(imp2D.getProcessor());
+
         //imp2D.show();
         //imp2D.setTitle("imagej");
     }

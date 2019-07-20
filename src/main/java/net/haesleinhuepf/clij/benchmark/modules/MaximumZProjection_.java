@@ -2,18 +2,19 @@ package net.haesleinhuepf.clij.benchmark.modules;
 
 import ij.IJ;
 import ij.ImagePlus;
-import ij.plugin.Slicer;
+import ij.plugin.ZProjector;
 import net.haesleinhuepf.clij.benchmark.DefaultBenchmarkableModule;
 import net.haesleinhuepf.clij.clearcl.ClearCLBuffer;
 
-public class Reslice3D extends DefaultBenchmarkableModule {
+@Deprecated
+public class MaximumZProjection_ extends DefaultBenchmarkableModule {
 
     public void test(ImagePlus imp2D, ImagePlus imp3D) {
-        IJ.run(imp3D,"Reslice [/]...", "output=1 start=Left");
+        IJ.run(imp3D, "Z Project...", "projection=[Max Intensity]");
     }
 
     public void test(ClearCLBuffer[] clb2D, ClearCLBuffer[] clb3D) {
-        clij.op().resliceLeft(clb3D[0], clb3D[2]);
+        clij.op().maximumZProjection(clb3D[0], clb2D[3]);
     }
 
     @Override

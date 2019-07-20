@@ -70,25 +70,29 @@ public class BenchmarkAllOperations extends AbstractBenchmark {
             long[] clijTimes = new long[repetitions];
             System.out.println("Testing " + module.getName());
 
-            for (int i = 0; i < repetitions; i++) {
-                ImagePlus imp3D = NewImage.createByteImage("title", 256, 256, 256, NewImage.FILL_RANDOM);
-                ImagePlus imp2D = NewImage.createByteImage("title", 4096, 4096, 1, NewImage.FILL_RANDOM);
 
-                if (module.isBinary()) {
-                    IJ.setThreshold(imp3D, 128 ,255);
-                    IJ.run(imp3D, "Convert to Mask", "method=Default background=Dark black");
-                    IJ.setThreshold(imp2D, 128 ,255);
-                    IJ.run(imp2D, "Convert to Mask", "method=Default background=Dark black");
+
+            for (int factor = 1; factor < 8; factor = factor * 2) {
+                for (int i = 0; i < repetitions; i++) {
+                    ImagePlus imp3D = NewImage.createByteImage("title", 512 * factor, 512 * factor, 100, NewImage.FILL_RANDOM);
+                    ImagePlus imp2D = NewImage.createByteImage("title", 512 * factor, 512 * factor, 1, NewImage.FILL_RANDOM);
+
+                    if (module.isBinary()) {
+                        IJ.setThreshold(imp3D, 128, 255);
+                        IJ.run(imp3D, "Convert to Mask", "method=Default background=Dark black");
+                        IJ.setThreshold(imp2D, 128, 255);
+                        IJ.run(imp2D, "Convert to Mask", "method=Default background=Dark black");
+                    }
+
+                    //new ImageJ();
+
+                    long[] times = measureTimes(clij, module, imp2D, imp3D);
+
+                    //new WaitForUserDialog("test").show();
+
+                    imageJTimes[i] = times[0];
+                    clijTimes[i] = times[1];
                 }
-
-                //new ImageJ();
-
-                long[] times = measureTimes(clij, module, imp2D, imp3D);
-
-                //new WaitForUserDialog("test").show();
-
-                imageJTimes[i] = times[0];
-                clijTimes[i] = times[1];
             }
             saveTable(imageJTimes, "data/benchmarking/all/" + getComputerName() + "_" + module.getName() + "_imagej.csv");
             saveTable(clijTimes, "data/benchmarking/all/" + getComputerName() + "_" + module.getName() + "_clij.csv");
