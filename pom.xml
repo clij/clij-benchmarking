@@ -8,13 +8,13 @@
 	<parent>
 		<groupId>net.haesleinhuepf</groupId>
 		<artifactId>clij-parent-pom</artifactId>
-		<version>1.0.7</version>
+		<version>1.0.9-BETA</version>
 		<relativePath />
 	</parent>
 
 	<groupId>net.haesleinhuepf</groupId>
 	<artifactId>clij-benchmarking</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.9-BETA</version>
 
 	<name>clij-benchmarking</name>
 	<description>clij-benchmarking</description>
@@ -128,7 +128,18 @@
 		</repository>
 	</repositories>
 
-    <profiles>
+	<distributionManagement>
+
+		<repository>
+			<id>bintray-haesleinhuepf-snapshots</id>
+			<name>bintray-snapshots</name>
+			<url>https://api.bintray.com/maven/haesleinhuepf/clij/clij-benchmarking/;publish=1</url>
+		</repository>
+
+	</distributionManagement>
+
+
+	<profiles>
         <profile>
             <!-- Run a named benchmark from maven. The class to run can be specified as a property using -Dbenchmark=[XXX], for
               example: mvn test -Pbenchmark -Dbenchmark=TestBenchmark -->
