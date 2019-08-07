@@ -15,12 +15,12 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 sourceFolder = "G:/clij/tif/"
-resultFolder = "G:/clij/imagej_out_myers-pc-22/"
+resultFolder = "G:/clij/headless_imagej_out_myers-pc-22/"
 computerName = "myers-pc-22";
 
-timeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_time_imagej.csv";
-fulltimeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_fulltime_imagej.csv";
-countLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_cellcount_imagej.csv";
+timeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_time_imagej.csv";
+fulltimeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_fulltime_imagej.csv";
+countLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_cellcount_imagej.csv";
 
 
 smallBlurSigmaInPixels = 2;

@@ -15,15 +15,15 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 
 sourceFolder = "G:/clij/tif/"
-resultFolder = "G:/clij/clij_out_myers-pc-22/"
+resultFolder = "G:/clij/headless_clij_out_myers-pc-22/"
 computerName = "myers-pc-22";
 
 //cl_device = "[Intel(R) UHD Graphics 620]";
 cl_device = "P6000";
 
-timeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_time_clij.csv";
-fulltimeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_fulltime_clij.csv";
-countLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/" + computerName + "_workflowB_cellcount_clij.csv";
+timeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_time_clij.csv";
+fulltimeLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_fulltime_clij.csv";
+countLogFile = "C:/structure/code/clij-benchmarking/data/benchmarking/cellcount/headless_" + computerName + "_workflowB_cellcount_clij.csv";
 
 
 
