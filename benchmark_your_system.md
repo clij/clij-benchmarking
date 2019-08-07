@@ -12,6 +12,8 @@ If you want to execute the benchmarks in this repository, we recommend installin
 * [Fiji](http://fiji.sc/)
 * [CLIJ](https://clij.github.io/clij-docs/installationInFiji)
 
+Furthermore, we recommend a minimum of 1 GB of GPU memory for the operations benchmarking and 4 GB of GPU memory for the workflow benchmarking.
+
 ## Benchmarking operations
 
 In order to run operations benchmarking, you should clone this repository
