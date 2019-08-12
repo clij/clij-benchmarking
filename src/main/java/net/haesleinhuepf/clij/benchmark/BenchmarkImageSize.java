@@ -13,12 +13,12 @@ public class BenchmarkImageSize extends AbstractBenchmark {
 
         BenchmarkableModule[] modules = {
                 //new AddImagesWeighted3D(),
-                new GaussianBlur3D(defaultSigma)
+                //new GaussianBlur3D(defaultSigma)
                 //new MaximumZProjection(),
                // new Minimum3D(defaultRadius),
                 //new Reslice3D(),
                 //new RadialReslice(),
-                //new Transfer3DFrom()
+                new Transfer3DFrom()
         };
 
 
