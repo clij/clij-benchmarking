@@ -142,6 +142,8 @@ def process_one_param(data_frame, param_dict, free_param_name, name, benchmarks_
 
         plt.xlabel(x_axis_label)
         plt.ylabel("Processing time / s")
+
+        plt.tight_layout()
         if (save_dir != None):
             path = "%s/%s.pdf"%(save_dir.strip("/"), name+suff)
             plt.savefig(path)
