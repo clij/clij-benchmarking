@@ -6,21 +6,21 @@ Therefore, we used the [Java Microbenchmark Harness](https://openjdk.java.net/pr
 First, we set up a list of operations to benchmark in more detail. The list contains typical operations such as
 morphological filters, binary image operations, thresholding and projections. The operations were encapsulated in
 respective Benchmarking modules and put in a [Java package](https://github.com/clij/clij-benchmarking-jmh/tree/master/src/main/java/net/haesleinhuepf/clij/benchmark/jmh/);
-Each of these modules has two several methods implementing different ways to call the given operation. 
+Each of these modules has several methods implementing different ways to call the given operation. 
 Methods starting with 'clij' utilize CLIJ and the GPU. 
 Others call ImageJ or third-party libraries to execute the operation.
 As executing all operations under various conditions takes a large amount of time, 
 we executed the benchmarks on one clij operation (clij, clij_sphere or clij_box) compared to one ImageJ operation (ijrun, ijapi or vib).
- 
+
 All operations were benchmarked to measure the pure processing time excluding time spent for
-data transfer between CPU and GPU for example. 
-Thus, in order to measure pure processing times of the operations, image data transfor from/to GPU was excluded from operations benchmarking.
+data transfer between CPU and GPU and compilation time. 
+In order to measure pure processing times of the operations, image data transfor from/to GPU was excluded from operations benchmarking.
 Additionally, we measured the transfer time independently. 
 Furthermore, Java and GPU code compilation time was excluded by ignoring the first 10 out of 20 iterations.
 During this so called warm-up phase, compiled code is cached and can be reused in subsequent iterations.
 
 ### Compared Java code
-The full list of tested operations and corresponding code is available [here](https://clij.github.io/clij-benchmarking/list_benchmarked_operations.md).
+The full list of tested operations and corresponding code is available [here](https://clij.github.io/clij-benchmarking/list_benchmarked_operations).
 
 ## Image data
 For benchmarking operations, we used images with random pixel values of pixel type 16-bit of different sizes for 2D:
@@ -40,6 +40,8 @@ and 3D:
 For testing operations with different radii we used images with a size of 
 * 2048x2048 pixels (8 MB) for 2D operations and
 * 1024x1024x32 voxels (64 MB) for 3D operations. 
+
+The use images are [available online](https://git.mpi-cbg.de/rhaase/clij-benchmarking-data/tree/master/data/operation_benchmark_input).
 
 ## Benchmarked computing hardware
 Benchmarking was executed on 
@@ -74,11 +76,11 @@ Furthermore, corresponding plots for 3D operations in image size range 1B - 128 
 
 <img src="./images/plot_legend.png" width="600">
 
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking-jmh/imagesize); These plots were done with the 
+[plotting_ij_clij_imagesize_comparison.ipynb](https://github.com/clij/clij-benchmarking/blob/master/plotting_jmh/python/plotting_ij_clij_imagesize_comparison.ipynb) notebook.
 
-Time benchmark measurement raw data are available online; These plots were done with the 
-plotting_ij_clij_comparision_windows.ipnb notebook.
 Some of the operations show different behaviour with small images compared to large images. 
-There is apparently not a linear or polynomial relationship between image size and execution time. 
+There is apparently not always a linear or polynomial relationship between image size and execution time. 
 We assume that the cache of the CPU allows ImageJ operations running on the CPU to finish faster with 
 small images compared to large images. 
 This is reasonable as these caches usually hold several megabytes.
@@ -94,22 +96,23 @@ parameter and the Mean and the Minimum filter whose processing time might depend
 
 <img src="./images/plot_legend.png" width="600">
 
-Time benchmark measurement raw data are available online: 
-These plots were done with the plotting_ij_clij_radii_comparision_windows.ipynb notebook.
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking-jmh/kernelsize): 
+These plots were done with the [plotting_ij_clij_radii_comparison.ipynb](https://github.com/clij/clij-benchmarking/blob/master/plotting_jmh/python/plotting_ij_clij_radii_comparison.ipynb) notebook.
 
 The Gaussian Blur filter in ImageJ is optimized for speed. 
 Apparently, it is an implementation which is independent from kernel size. 
-Thus, with very large kernels, it can perform faster than it GPU-based counter part. 
-The Mean and the Minimum filter show an apparently polynomial increasing time with increasing filter radius.
+Thus, with very large kernels, it can perform faster than its GPU-based counter part. 
+The Minimum filter shows an apparently polynomial increasing time with increasing filter radius.
 
 ### Speedup of operations
-We also generated an overview of speedup factors for all tested operations. 
+We also generated an overview table of speedup factors for all tested operations. 
 The speedup was calculated relative to the ImageJ operation executed on the laptop CPU.
 
 <img src="./plotting_jmh/images/speedup/compare_machines_all_operations.png" width="600">
 
-Time benchmark measurement raw data are available online.
-This table was generated with the Table_windows.ipynb notebook.
+Time benchmark measurement raw data are [available online](https://github.com/clij/clij-benchmarking/tree/master/data/benchmarking-jmh/imagesize).
+This table was generated with the [speedup_table.ipynb](https://github.com/clij/clij-benchmarking/blob/master/plotting_jmh/python/speedup_table.ipynb) notebook. The table shows calculated factors for image sizes of 32 MB (2D) / 64 MB (3D) and radii/sigma of 2. 
+Speedup tables for different image sizes are available as well for [2D images](https://clij.github.io/clij-benchmarking/benchmarking_operations_jmh_speedup_2d) and [3D images](https://clij.github.io/clij-benchmarking/benchmarking_operations_jmh_speedup_3d) independently.
 
 This table shows some operations to perform slower (speedup < 1) on the workstation CPU in comparison to the notebook CPU. 
 We see the reason in the single thread performance resulting from the clock rate of the CPU. 
