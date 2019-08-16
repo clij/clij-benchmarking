@@ -57,13 +57,13 @@ suggesting that the data transfer is faster on the workstation.
 The image data transfer benchmarking can be reproduced by executing the [main method in this class](https://github.com/clij/clij-benchmarking/blob/master/src/main/java/net/haesleinhuepf/clij/benchmark/BenchmarkImageSize.java).
 Then, the numbers can be retraced by executing the [analyse_transfer_time.py](https://github.com/clij/clij-benchmarking/tree/master/plotting_jmh/python/analyse_transfer_time.py)
 
-<img src="./plotting_jmh/images/compare_machines_imagesize_transfertime_imagej.png" width="250"><img src="./plotting_jmh/images/compare_machines_imagesize_transfertime_clij.png" width="250">
+<img src="./plotting/images/compare_machines_imagesize_transfertime_imagej.png" width="250"><img src="./plotting/images/compare_machines_imagesize_transfertime_clij.png" width="250">
 
-These plots were done with the [plotCompareMachinesTransferImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting_jmh/python/plotCompareMachinesTransferImageSize.py) script.
+These plots were done with the [plotCompareMachinesTransferImageSize.py](https://github.com/clij/clij-benchmarking/tree/master/plotting/python/plotCompareMachinesTransferImageSize.py) script.
 
 
 ### Processing time depends on image size
-We chose some 2D operations to plot processing time with respect to image size in range 1B - 32 MB in detail:
+We chose some 2D operations to plot processing time with respect to image size in range 1B - 32 MB in detail. Benchmarking of all operations or a specific choice can be reproduced by following the instructions in the [clij-benchmarking-jmh repository](http://github.com/clij/clij-benchmarking-jmh).
 
 <img src="./plotting_jmh/images/imagesize/clij_ij_comparison_AddImagesWeighted2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_AddScalar2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_AutoThreshold2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_BinaryAnd2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Erode2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_FixedThreshold2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Flip2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_GaussianBlur2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Mean2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Median2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Minimum2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_MultiplyScalar2D.png" width="250"><img src="./plotting_jmh/images/imagesize/clij_ij_comparison_Rotate2D.png" width="250">
 
