@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.Erode2D.ijapi","avgt",1,10,5111223.154762,621644.882481,"ns/op",1

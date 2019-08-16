@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur2D.ijrun","avgt",1,10,1389591.795980,55991.365798,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur2D.ijrun","avgt",1,10,18311455.684848,707846.583822,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur2D.ijrun","avgt",1,10,26244084.397619,1775511.290164,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur2D.ijrun","avgt",1,10,57390758.600000,4910078.029740,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur2D.ijrun","avgt",1,10,150327594.600000,7091362.630929,"ns/op",2,4

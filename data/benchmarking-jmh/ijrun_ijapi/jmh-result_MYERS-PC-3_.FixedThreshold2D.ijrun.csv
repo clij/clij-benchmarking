@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.ijrun","avgt",1,10,1365475.952381,85576.166230,"ns/op",1

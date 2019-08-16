@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.AddScalar3D.ijrun","avgt",1,10,24915216.666667,3186966.064723,"ns/op",1

@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.Mean2D.ijrun","avgt",1,10,16071486.666667,1902109.182663,"ns/op",2,1

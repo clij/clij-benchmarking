@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.MaximumZProjection.ijrun","avgt",1,10,61176735.238095,15102004.167817,"ns/op",1
