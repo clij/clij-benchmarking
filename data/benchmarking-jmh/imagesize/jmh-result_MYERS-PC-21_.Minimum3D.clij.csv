@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,1543605.295550,157750.059342,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,45317585.666667,325747.224572,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,88920250.000000,287695.120485,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,181647210.000000,1279226.242679,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,391946160.000000,4470989.001871,"ns/op",2,4

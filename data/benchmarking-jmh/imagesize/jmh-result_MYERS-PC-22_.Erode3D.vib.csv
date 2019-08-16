@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.vib","avgt",1,10,4138.205043,309.372265,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.vib","avgt",1,10,8387501.835678,906324.124801,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.vib","avgt",1,10,15693168.257143,720438.777183,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.vib","avgt",1,10,38859698.766667,10508083.835640,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.vib","avgt",1,10,67783168.350000,10476584.722776,"ns/op",4

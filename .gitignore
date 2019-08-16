@@ -2,3 +2,4 @@
 *.iml
 *.cpython-37.pyc
 /target/
+*checkpoint.ipynb

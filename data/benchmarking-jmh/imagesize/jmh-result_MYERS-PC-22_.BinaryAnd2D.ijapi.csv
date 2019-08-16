@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.BinaryAnd2D.ijapi","avgt",1,10,5959.481639,1390.425975,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.BinaryAnd2D.ijapi","avgt",1,10,426463.083274,27428.720252,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.BinaryAnd2D.ijapi","avgt",1,10,1480560.078571,69004.222779,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.BinaryAnd2D.ijapi","avgt",1,10,6045535.391667,816732.093968,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.BinaryAnd2D.ijapi","avgt",1,10,25017815.350000,9131185.370478,"ns/op",4

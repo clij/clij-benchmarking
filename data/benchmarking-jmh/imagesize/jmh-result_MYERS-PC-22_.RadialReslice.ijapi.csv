@@ -1,0 +1,6 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,37036.158644,3810.115740,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,60863432.237500,2665939.795737,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,126541136.320000,8482312.456709,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,243837165.100000,18197587.603905,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,545790171.500000,36521071.338521,"ns/op",4
