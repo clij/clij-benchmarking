@@ -90,9 +90,9 @@ Some operations have parameters influencing processing time.
 We chose three representative examples: the Gaussian Blur filter whose processing time might depend on its sigma 
 parameter and the Mean and the Minimum filter whose processing time might depend on the entered radius parameter.
 
-<img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_GaussianBlur2D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Mean2D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Minimum2D.png" width="250">
+<img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_GaussianBlur2D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Minimum2D.png" width="250">
 
-<img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_GaussianBlur3D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Mean3D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Minimum3D.png" width="250">
+<img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_GaussianBlur3D.png" width="250"><img src="./plotting_jmh/images/kernelsize/clij_ij_comparison_Minimum3D.png" width="250">
 
 <img src="./images/plot_legend.png" width="500">
 
