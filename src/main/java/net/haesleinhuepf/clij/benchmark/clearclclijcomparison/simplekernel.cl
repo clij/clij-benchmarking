@@ -6,7 +6,7 @@ __kernel void copybuffer
 )
 {
   const int i = get_global_id(0), j = get_global_id(1), k = get_global_id(2);
-  const int w = get_global_size(0), h = get_global_id(1);
+  const int w = get_global_size(0), h = get_global_size(1);
 
   int pos = i + j * w + k * w * h;
 
