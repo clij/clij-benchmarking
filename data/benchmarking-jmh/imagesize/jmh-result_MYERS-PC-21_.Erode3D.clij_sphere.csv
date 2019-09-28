@@ -1,6 +1,21 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","avgt",1,10,832347.905963,46669.173146,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","avgt",1,10,3057635.535714,154691.948982,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","avgt",1,10,4963792.500000,81574.951056,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","avgt",1,10,9358255.000000,260701.551671,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","avgt",1,10,18837490.000000,976822.583249,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,1160163.000000,95840.100246,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,1194376.000000,37221.209166,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,1543825.000000,25009.823854,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,2113765.000000,23491.769321,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,3016462.000000,40269.671235,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,4118228.000000,254337.579352,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,4853987.000000,57085.116860,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,5020544.000000,108361.270742,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,6080107.000000,80284.372740,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,6867296.000000,57618.483321,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,7863467.000000,94402.478032,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,9429424.000000,251254.255815,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,11719561.000000,149885.757808,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,15254390.000000,334711.703138,"ns/op",13
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,16630802.000000,170747.681654,"ns/op",14
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,19152337.000000,236719.177384,"ns/op",15
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,20892026.000000,150416.620850,"ns/op",16
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,28219516.000000,221405.430732,"ns/op",17
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,31740771.000000,311388.457014,"ns/op",18
+"net.haesleinhuepf.clij.benchmark.jmh.Erode3D.clij_sphere","ss",1,100,36600857.000000,631726.427961,"ns/op",19

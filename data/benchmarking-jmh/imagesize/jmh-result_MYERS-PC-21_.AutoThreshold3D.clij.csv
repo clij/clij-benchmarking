@@ -1,6 +1,21 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","avgt",1,10,2072396.349797,91302.688506,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","avgt",1,10,22370292.857143,638399.968841,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","avgt",1,10,36413470.000000,634631.421141,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","avgt",1,10,66776040.000000,3663579.197364,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","avgt",1,10,137870500.000000,1795766.553623,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,2629697.000000,164516.019115,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,6580900.000000,112882.451257,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,10994825.000000,139525.924146,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,14691512.000000,222061.918394,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,21895815.000000,303118.326487,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,27321165.000000,595240.754144,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,29829601.000000,164532.341529,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,36534413.000000,203952.700614,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,43286643.000000,449307.368868,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,51193246.000000,194956.071043,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,57460304.000000,368142.635950,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,64707347.000000,421036.259098,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,80406043.000000,191427.536568,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,97493227.000000,444010.883359,"ns/op",13
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,113944309.000000,427254.044541,"ns/op",14
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,130987280.000000,316806.360722,"ns/op",15
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,147735651.000000,312738.854212,"ns/op",16
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,193723446.000000,688232.760013,"ns/op",17
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,234246499.000000,1215129.900483,"ns/op",18
+"net.haesleinhuepf.clij.benchmark.jmh.AutoThreshold3D.clij","ss",1,100,269588294.000000,997265.626028,"ns/op",19
