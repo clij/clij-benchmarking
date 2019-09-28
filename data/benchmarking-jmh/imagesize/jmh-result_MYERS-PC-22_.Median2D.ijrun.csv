@@ -1,6 +1,21 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","avgt",1,10,338223.766925,30334.483442,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","avgt",1,10,17710247.528788,726701.945153,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","avgt",1,10,41748567.233333,2614471.398037,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","avgt",1,10,88295126.666667,5136116.998923,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","avgt",1,10,279934691.100000,18033600.892536,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,937372.160000,193436.644098,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,1795789.320000,277285.256626,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,2223927.480000,369433.381364,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,3245587.100000,689968.827789,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,5488840.320000,717012.405847,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,9235357.230000,988011.556845,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,10163936.470000,1319428.352920,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,9208035.330000,1352222.970362,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,11281965.810000,1264796.433236,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,14505397.230000,2440646.469840,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,16048421.910000,2642173.472594,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,21103987.060000,3101302.377021,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,28774305.670000,4795077.152962,"ns/op",2,12
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,31402226.360000,4206270.356849,"ns/op",2,13
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,39575400.460000,4882050.252494,"ns/op",2,14
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,48248639.410000,7119185.305328,"ns/op",2,15
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,63491865.690000,2068093.770542,"ns/op",2,16
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,93442764.480000,5181500.982655,"ns/op",2,17
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,185255347.730000,11756415.290474,"ns/op",2,18
+"net.haesleinhuepf.clij.benchmark.jmh.Median2D.ijrun","ss",1,100,297620112.690000,13053524.636664,"ns/op",2,19
