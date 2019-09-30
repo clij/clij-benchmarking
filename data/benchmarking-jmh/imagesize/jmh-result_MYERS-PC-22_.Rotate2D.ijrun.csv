@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,5663.209924,2738.342495,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,1475151.334542,156846.239236,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,9354791.728571,1393147.006707,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,62626862.900000,9373055.687306,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,284789689.800000,38564135.467794,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,48553.800000,9534.577152,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,158936.430000,55189.696983,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,355786.380000,18806.739932,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,1261916.680000,109228.377105,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,1042397.880000,42143.973766,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,1955258.480000,111426.265509,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,9374772.450000,724127.731157,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,4729353.970000,69321.643989,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,8167680.490000,2462109.974909,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,9673270.700000,1497162.803455,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,15710798.010000,865234.645730,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,58290194.190000,1349731.815118,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,99947369.820000,8031490.348689,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,270456931.310000,1011158.624446,"ns/op",13

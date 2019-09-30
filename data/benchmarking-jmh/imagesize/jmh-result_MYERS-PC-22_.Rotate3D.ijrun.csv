@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,5600.745451,2342.575414,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,1400195.474702,112637.551516,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,9774241.014286,786769.637314,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,60364077.633333,7433707.508973,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,288038900.000000,39336225.366040,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,47986.840000,9551.152048,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,147958.760000,23414.734604,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,363249.850000,33425.048239,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,1246515.720000,52419.941750,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,1092872.640000,107740.921107,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,2169268.930000,663131.926998,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,9058849.750000,952133.275259,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,4698825.810000,71415.664880,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,7739253.970000,1400594.642095,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,8877454.620000,96109.211322,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,15397187.090000,1240846.156436,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,60575046.130000,1402804.856227,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,103177101.410000,6299727.728708,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,274960143.750000,6026768.340349,"ns/op",13

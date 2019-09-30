@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","avgt",1,10,701096.980829,229351.675513,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","avgt",1,10,1157307.020000,73269.714073,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","avgt",1,10,1505639.850000,97041.281544,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","avgt",1,10,2031990.600000,90769.801261,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","avgt",1,10,3101065.800000,96490.839577,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1042075.310000,129573.785106,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1040423.320000,66904.190677,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1107848.350000,51039.251067,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1281941.380000,65814.056546,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1482403.330000,80123.069156,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1598010.680000,35991.964015,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1793628.970000,64475.177170,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,1930571.020000,54553.427917,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,2153882.590000,24496.431006,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,2486091.000000,23120.854470,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,3073082.500000,30888.132469,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,3601979.550000,26506.615261,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,4179053.960000,26929.300846,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.clij","ss",1,100,5199936.480000,29981.599770,"ns/op",13

@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","avgt",1,10,799282.671972,301324.226520,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","avgt",1,10,1133487.135000,148529.719567,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","avgt",1,10,1093016.583333,74782.784455,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","avgt",1,10,1286869.000000,204354.541191,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","avgt",1,10,1355686.800000,105938.239601,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1217903.510000,167581.219985,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1061278.880000,83809.752646,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1039470.170000,59783.583527,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1062896.620000,76622.486516,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1092022.150000,53684.312161,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1082520.570000,31180.301108,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1108473.960000,56352.156313,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1065125.430000,91566.659313,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1163215.620000,61257.149127,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1038297.100000,31349.202911,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1165644.750000,32552.374562,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1156617.250000,30322.119655,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1153513.650000,33986.329568,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar2D.clij","ss",1,100,1327049.510000,23622.223759,"ns/op",13

@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","avgt",1,10,320476.207436,31718.948804,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","avgt",1,10,14377709.899242,544190.817482,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","avgt",1,10,22935060.835714,3813651.880164,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","avgt",1,10,47903785.600000,6902566.512306,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","avgt",1,10,111938617.050000,9894501.204779,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,919326.960000,180381.504240,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,8064834.680000,874749.367741,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,9818731.890000,598903.498966,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,15282738.070000,1486942.328309,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,16246694.140000,1324739.410748,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,20366866.650000,2225138.392728,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,24818201.570000,5604268.685160,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,27123532.820000,3310058.567185,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,45832954.930000,7770649.080838,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,42746138.060000,5964128.589364,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,47810364.350000,6823172.781829,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,53421253.950000,3104549.326258,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,89260484.530000,11194451.639654,"ns/op",2,12
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.ijrun","ss",1,100,137326018.180000,14669976.670111,"ns/op",2,13

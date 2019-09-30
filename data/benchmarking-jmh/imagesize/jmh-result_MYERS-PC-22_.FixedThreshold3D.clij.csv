@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,695463.811501,69047.142760,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,1029534.180000,131111.558118,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,1294762.350000,316906.785441,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,1428072.800000,80184.938958,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,1890737.700000,53640.021850,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,981351.210000,50078.036471,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1011009.420000,86419.238935,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1066371.760000,68614.204615,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1053443.960000,58606.416873,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1176803.210000,74172.576453,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1204047.000000,49796.854781,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1319669.080000,65649.585145,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1369298.270000,53800.254695,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1398418.880000,34210.814480,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1532071.510000,30595.341920,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1858336.510000,32863.023592,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,2056266.540000,29889.481438,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,2240755.630000,32213.391087,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,2676670.080000,23431.994511,"ns/op",13

@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","avgt",1,10,732650.659010,49232.816000,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","avgt",1,10,944063.835000,137934.359604,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","avgt",1,10,1028825.350000,181713.162456,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","avgt",1,10,1134080.800000,84051.730616,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","avgt",1,10,1293027.200000,324013.179577,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,955959.910000,84782.980799,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,970251.400000,63774.700556,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,967572.860000,91179.643796,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,923242.030000,48492.695883,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,1008629.110000,35930.944626,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,948393.810000,49378.557209,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,965666.650000,53795.151939,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,873500.400000,29073.028326,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,902000.270000,35601.346536,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,905646.500000,30693.847428,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,1023081.840000,30372.063266,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,1024885.480000,30569.846931,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,1068189.960000,32168.242797,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold2D.clij","ss",1,100,1147638.650000,25874.226272,"ns/op",13

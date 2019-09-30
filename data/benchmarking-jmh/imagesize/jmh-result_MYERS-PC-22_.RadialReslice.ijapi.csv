@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,37036.158644,3810.115740,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,60863432.237500,2665939.795737,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,126541136.320000,8482312.456709,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,243837165.100000,18197587.603905,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","avgt",1,10,545790171.500000,36521071.338521,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,126624.230000,23321.471722,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,25597600.140000,1463415.384615,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,50097645.330000,1650267.369824,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,76804232.730000,2041309.743141,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,115790398.260000,1833381.372334,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,151160463.860000,3073964.699790,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,181621662.000000,2911200.656682,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,243082628.090000,4406911.169923,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,315524749.890000,6136482.445061,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,391989970.530000,3850505.551140,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,467602829.930000,11363482.279900,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,656089786.060000,6655437.675968,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,856398538.590000,15591290.218703,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.ijapi","ss",1,100,1052014555.430000,15743992.655289,"ns/op",13

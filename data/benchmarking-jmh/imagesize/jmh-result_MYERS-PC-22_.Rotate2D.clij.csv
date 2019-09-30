@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","avgt",1,10,780685.186908,261286.282052,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","avgt",1,10,1000538.125000,167920.751938,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","avgt",1,10,1108355.783333,193526.226626,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","avgt",1,10,1329635.600000,881224.931061,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","avgt",1,10,1703491.600000,118036.495917,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,998829.450000,126766.768208,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,895509.560000,35238.278392,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,938721.210000,73737.444580,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,944625.380000,27767.960778,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,996952.560000,82842.908948,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,964009.770000,30495.533318,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1021307.740000,51590.267106,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1026952.930000,36572.518178,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,928647.710000,26471.486636,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1041811.390000,47180.099084,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1118469.070000,28206.077236,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1107750.560000,28087.076689,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1393668.070000,23151.765128,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.clij","ss",1,100,1631852.810000,23127.862202,"ns/op",13

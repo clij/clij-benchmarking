@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,7220962.719531,795242.702925,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,585172441.100000,44847044.316862,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,926007710.800000,37248703.104141,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,1018107903.600000,45948951.806777,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,2525272902.000000,174622029.144274,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,5978230.440000,625366.902025,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,480718034.180000,8802524.355505,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,586762472.660000,13671012.866136,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,831772250.460000,11594287.711812,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,1010192705.160000,11740997.703449,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,928453016.300000,6858678.527079,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,945844822.120000,9209231.317621,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,999107706.600000,8241998.403619,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,1782147905.020000,14239874.755144,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,1860552054.680000,11283226.122059,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,1968591160.760000,10668649.604035,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,3419936573.140000,39487323.754916,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,4501237874.320000,19418058.872136,"ns/op",2,12
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,5530441310.400000,53038352.573341,"ns/op",2,13

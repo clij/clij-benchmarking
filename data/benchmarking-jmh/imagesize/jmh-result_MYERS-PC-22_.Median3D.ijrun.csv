@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","avgt",1,10,6190973.059089,300331.753233,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","avgt",1,10,1411412901.300000,74744427.711258,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","avgt",1,10,2181531339.000000,79529899.722594,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","avgt",1,10,2401589218.700000,35996597.443433,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","avgt",1,10,5204351081.800000,204141998.911249,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,6251053.880000,714128.628361,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,1162443294.730000,12791882.745727,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,1386444531.310000,24111596.354693,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,1967954217.390000,23225983.303515,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,2116229259.870000,15761872.786988,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,2131380358.930000,17177212.001698,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,2171873512.640000,13159654.683668,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,2388587226.200000,11434662.409059,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,4181938034.400000,34248708.728458,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,4336835611.430000,20017438.361393,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,5197990464.230000,52432510.644565,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,7244454389.690000,21614694.340105,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,9348763401.310000,34250670.974057,"ns/op",2,12
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.ijrun","ss",1,100,11438007585.640000,46082648.547590,"ns/op",2,13
