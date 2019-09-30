@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,3804.001082,860.908872,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,1351792.523810,55313.758594,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,5745188.888889,789430.245857,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,29774077.500000,4052279.166908,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","avgt",1,10,154680125.000000,6538754.510111,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,47238.000000,6284.246544,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,95296.000000,8407.288521,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,246766.000000,15409.681979,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,1185098.000000,27824.198199,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,773660.000000,20197.675175,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,1332081.000000,28795.948057,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,4991658.000000,77400.747897,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,3127854.000000,36963.539413,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,4224429.000000,39383.210191,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,6767432.000000,1014242.989915,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,10355170.000000,1218046.589774,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,27030877.000000,1676841.409326,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,59620088.000000,6237042.730427,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate3D.ijrun","ss",1,100,140562910.000000,2925992.597468,"ns/op",13

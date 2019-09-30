@@ -1,6 +1,14 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,1543605.295550,157750.059342,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,45317585.666667,325747.224572,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,88920250.000000,287695.120485,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,181647210.000000,1279226.242679,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","avgt",1,10,391946160.000000,4470989.001871,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,1787425.950000,98837.272133,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,23361328.010000,45538.009652,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,45131286.920000,66910.669771,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,67074691.870000,65304.284578,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,88896304.010000,72720.487679,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,111077944.060000,190872.249244,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,134830354.080000,222066.203592,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,179672993.010000,288844.889067,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,229329959.980000,476331.493930,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,289619329.990000,520382.542858,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,376254873.940000,784451.963539,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,473437276.050000,1100771.493548,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.clij","ss",1,100,596214845.010000,911111.423835,"ns/op",2,12

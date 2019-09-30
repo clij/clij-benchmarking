@@ -1,6 +1,14 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","avgt",1,10,829893.738025,66752.526010,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","avgt",1,10,3441836.428571,113681.266212,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","avgt",1,10,5803362.500000,192408.557486,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","avgt",1,10,10533175.000000,488286.249420,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","avgt",1,10,22805830.000000,948798.179246,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,1219525.070000,143427.566486,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,2228780.010000,29879.172089,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,3366043.010000,38195.022347,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,4477641.910000,43883.950624,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,5716044.960000,127576.897087,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,6728406.920000,63085.054850,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,7933851.020000,68557.753139,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,10717475.030000,80473.547584,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,13482722.910000,255030.278990,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,19276535.970000,276101.903050,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,22900167.950000,414527.810194,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,27204316.000000,194644.144962,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.MultiplyScalar3D.clij","ss",1,100,34896907.010000,525003.647431,"ns/op",12

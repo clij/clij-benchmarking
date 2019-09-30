@@ -1,6 +1,15 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,3990.613895,1104.111473,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,1409847.134387,147919.114049,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,5639614.000000,845530.363762,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,29570837.500000,5565723.813560,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","avgt",1,10,149537710.000000,5532517.439902,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,47671.000000,6272.401819,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,210374.000000,375503.693940,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,259733.000000,24080.014935,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,1280002.000000,93181.952654,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,798106.000000,36721.663109,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,1497510.000000,538629.834087,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,5182888.000000,645224.915636,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,3153837.000000,45352.731632,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,4193149.000000,55396.914694,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,7046010.000000,1208826.043828,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,10295602.000000,1197496.972375,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,27473496.000000,1632906.101583,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,59595873.000000,6118899.744744,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.Rotate2D.ijrun","ss",1,100,141468639.000000,2862197.442050,"ns/op",13

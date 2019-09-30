@@ -1,6 +1,14 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","avgt",1,10,10816632.577954,6102325.200458,"ns/op",2,0
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","avgt",1,10,1037323370.000000,32157949.718330,"ns/op",2,1
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","avgt",1,10,1969590400.000000,53208643.897941,"ns/op",2,2
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","avgt",1,10,4346548530.000000,78719929.966758,"ns/op",2,3
-"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","avgt",1,10,9019301970.000000,226453303.939607,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,1783709.960000,333357.877913,"ns/op",2,0
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,384310593.980000,618075.267129,"ns/op",2,1
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,753308336.020000,683636.256121,"ns/op",2,2
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,1142281517.040000,1112777.450644,"ns/op",2,3
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,1518371883.010000,2013528.639627,"ns/op",2,4
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,1904752691.960000,1427823.651549,"ns/op",2,5
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,2249713605.990000,4111775.610710,"ns/op",2,6
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,3027516664.960000,3833430.871273,"ns/op",2,7
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,3774909013.080000,4085303.890437,"ns/op",2,8
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,4708440427.890000,10418197.108835,"ns/op",2,9
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,6086678784.020000,30305260.928099,"ns/op",2,10
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,7754192566.010000,8016201.129753,"ns/op",2,11
+"net.haesleinhuepf.clij.benchmark.jmh.Median3D.clij_sphere","ss",1,100,9700143258.990000,12643896.271484,"ns/op",2,12

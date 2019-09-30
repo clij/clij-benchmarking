@@ -1,6 +1,14 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,778362.977184,57415.627708,"ns/op",0
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,3367567.142857,83759.210397,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,5684852.500000,127371.704353,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,10790850.000000,521517.959165,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","avgt",1,10,22623620.000000,846265.517565,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,1060028.010000,203170.634709,"ns/op",0
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,2121974.940000,27285.254026,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,3429032.010000,76895.888628,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,4904580.990000,123854.572115,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,6387299.050000,181879.396451,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,7394561.080000,277275.952698,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,7765270.030000,46761.730749,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,10233457.080000,52825.054073,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,13939625.040000,331286.281005,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,17949978.050000,169323.193114,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,22779284.930000,304684.544842,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,27400063.980000,209109.833887,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.FixedThreshold3D.clij","ss",1,100,34574223.980000,475135.520385,"ns/op",12
