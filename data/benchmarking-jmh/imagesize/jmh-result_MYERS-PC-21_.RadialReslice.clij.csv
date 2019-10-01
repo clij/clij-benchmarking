@@ -1,13 +1,14 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,1945065.110000,21800.060774,"ns/op",1
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,2928588.990000,30045.046142,"ns/op",2
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,3658047.010000,40305.465101,"ns/op",3
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,5106803.940000,38926.107511,"ns/op",4
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,5695809.990000,41324.612864,"ns/op",5
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,6724500.990000,47571.819763,"ns/op",6
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,11386036.010000,50823.308387,"ns/op",7
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,11761506.030000,74839.578385,"ns/op",8
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,12874987.000000,127130.632774,"ns/op",9
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,34746633.980000,121315.739387,"ns/op",10
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,28316305.000000,177618.844247,"ns/op",11
-"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,27323322.020000,284432.632221,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,1987673.000000,35754.864285,"ns/op",1
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,2946337.000000,40787.487453,"ns/op",2
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,3659197.000000,39022.853236,"ns/op",3
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,5118865.000000,65259.765978,"ns/op",4
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,5485228.000000,86172.694624,"ns/op",5
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,6568427.000000,68524.054590,"ns/op",6
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,11527459.000000,84316.190251,"ns/op",7
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,11881821.000000,666382.255159,"ns/op",8
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,12712054.000000,63238.798464,"ns/op",9
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,34339960.000000,158019.760932,"ns/op",10
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,27245488.000000,204695.147236,"ns/op",11
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,27468208.000000,600701.662226,"ns/op",12
+"net.haesleinhuepf.clij.benchmark.jmh.RadialReslice.clij","ss",1,100,55429558.000000,14991751.109566,"ns/op",13
