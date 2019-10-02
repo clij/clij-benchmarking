@@ -1,2 +1,2 @@
 "Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
-"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","avgt",1,10,5666642880.200000,109788977.940082,"ns/op",4,3
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum3D.ijrun","ss",1,100,5666679270.270000,24056586.493382,"ns/op",4,7
