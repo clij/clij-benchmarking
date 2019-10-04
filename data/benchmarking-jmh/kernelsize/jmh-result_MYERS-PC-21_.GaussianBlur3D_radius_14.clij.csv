@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.GaussianBlur3D.clij","ss",1,100,1174058355.000000,1436491.570214,"ns/op",14,7

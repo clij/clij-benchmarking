@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: radius","Param: size"
+"net.haesleinhuepf.clij.benchmark.jmh.Minimum2D.clij","ss",1,100,12414139.000000,61110.047913,"ns/op",3,11
