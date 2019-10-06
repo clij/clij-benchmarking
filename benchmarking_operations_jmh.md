@@ -41,7 +41,7 @@ For testing operations with different radii we used images with a size of
 * 2048x2048 pixels (8 MB) for 2D operations and
 * 1024x1024x32 voxels (64 MB) for 3D operations. 
 
-The use images are [available online](https://git.mpi-cbg.de/rhaase/clij-benchmarking-data/tree/master/data/operation_benchmark_input).
+The used images are [available online](https://git.mpi-cbg.de/rhaase/clij-benchmarking-data/tree/master/data/operation_benchmark_input).
 
 ## Benchmarked computing hardware
 Benchmarking was executed on 

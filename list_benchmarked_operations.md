@@ -95,7 +95,7 @@ ImageCalculator ic = new ImageCalculator();
 output = ic.run("AND create", input1, input2);
 </pre></td>
 <td><pre>
-clij.op().binaryAnd(input1, input2, output;
+clij.op().binaryAnd(input1, input2, output);
 </pre></td>
 </tr>
 
@@ -107,7 +107,7 @@ output = ic.run("AND create stack", input1,
     input2);
 </pre></td>
 <td><pre>
-clij.op().binaryAnd(input1, input2, output;
+clij.op().binaryAnd(input1, input2, output);
 </pre></td>
 </tr>
 
