@@ -25,17 +25,35 @@ The full list of tested operations and corresponding code is available [here](ht
 ## Image data
 For benchmarking operations, we used images with random pixel values of pixel type 16-bit of different sizes for 2D:
 * 1x1 (2B)
+* 128x128 (32 kB)
+* 256x256 (128 kB)
 * 512x512 (512 kB)
+* 600x600 (703 kB)
+* 800x800 (1 MB)
 * 1024x1024 (2 MB)
+* 1200x1200 (3 MB)
+* 1400x1400 (4 MB)
+* 1600x1600 (5 MB)
+* 1800x1800 (6 MB)
 * 2048x2048 (8 MB)
+* 3072x3072 (18 MB)
 * 4096x4096 (32 MB)
 
 and 3D:
 * 1x1x1 (2B)
+* 1024x1024x4 (8 MB)
 * 1024x1024x8 (16 MB)
+* 1024x1024x12 (24 MB)
 * 1024x1024x16 (32 MB)
+* 1024x1024x20 (40 MB)
+* 1024x1024x24 (48 MB)
 * 1024x1024x32 (64 MB)
+* 1024x1024x40 (80 MB)
+* 1024x1024x50 (100 MB)
 * 1024x1024x64 (128 MB)
+* 1024x1024x80 (160 MB)
+* 1024x1024x100 (200 MB)
+* 1024x1024x128 (256 MB)
 
 For testing operations with different radii we used images with a size of 
 * 2048x2048 pixels (8 MB) for 2D operations and
