@@ -96,3 +96,5 @@ Numbers and plots listed in this section can be reproduced using the [Analyse_di
 If you want to contribute to this project, feel free to clone the repository, [execute the benchmarks](http://clij.github.io/clij-benchmarking/benchmark_your_system) and file a pull request with your measurements! Also, please specify your CPU and GPU hardware when filing the PR.
 
 [Back to CLIJ documentation](https://clij.github.io/)
+
+[Imprint](https://clij.github.io/imprint)
