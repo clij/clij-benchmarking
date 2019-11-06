@@ -15,4 +15,6 @@
 ## 1024x1024x64 (128 MB) Byte images
 <img src="./plotting_jmh/images/speedup/compare_machines_all_operations_3D_size4.png" width="600">
 
- 
+[Back to CLIJ documentation](https://clij.github.io/)
+
+[Imprint](https://clij.github.io/imprint)
