@@ -53,4 +53,5 @@ This would allow us to build up a database of GPUs and their performance when us
 
 [Back to CLIJ documentation](https://clij.github.io/)
 
+[Imprint](https://clij.github.io/imprint)
 
