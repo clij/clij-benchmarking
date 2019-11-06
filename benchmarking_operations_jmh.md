@@ -140,4 +140,6 @@ On the other hand, there are operations shown which run faster on the workstatio
 We assume that the algorithms implemented exploit multi-threading for higher performance yield. 
 The workstation CPU has 8 physical cores while the laptops CPU has just 4.
 
-[Back to CLIJ documentation](https://clij.github.io)
+[Back to CLIJ documentation](https://clij.github.io/)
+
+[Imprint](https://clij.github.io/imprint)
